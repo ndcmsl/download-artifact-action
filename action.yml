@@ -2,19 +2,19 @@ name: 'Donwload Artifacts'
 description: 'Donwload Artifacts'
 inputs:
   github_token:
-    description: Github token.
+    description: Github token
     required: true
   owner:
-    description: Zoho Cliq zapikey or user webhook token.
+    description: Owner
     required: true
   repo:
-    description: Custom sender name for the message.
+    description: Respository
     required: true
   name:
-    description: Custom sender profile picture.
+    description: Artifact name
     required: true
   path:
-    description: Title of the message.
+    description: path
     required: false
     default: './'
 runs:
